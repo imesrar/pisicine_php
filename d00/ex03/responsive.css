@@ -1,0 +1,79 @@
+        table
+		{
+			width: 100%;
+			height: 80%;
+		}
+		td, th /* Mettre une bordure sur les td ET les th */
+		{
+			text-align: center;
+			position: relative;
+			border: 1px solid black;
+			-webkit-user-modify: read-write;
+		}
+		h2{
+			margin: auto;
+			font-size: 2vw; /* Relative to 1% of the width of the viewport */
+		}
+		h1{
+			text-align: center;
+			color: black; 
+		}
+		.no_border{
+			border: none;
+			-webkit-user-modify: read-only;
+		}
+		.num{
+			position: absolute;
+			text-align: left;
+			margin: 0;
+			bottom: 0;
+			left: 0;
+			margin-left: 1px;
+		}
+		.masse{
+			position: absolute;
+			text-align: right;
+			margin: 0;
+			top: 0;
+			right: 0;
+			margin-right: 1px;
+		}
+		td p{
+			font-size: 1vw;
+		}
+		.green{
+			background-color: rgb(124,252,0);
+		}
+		.green_bold{
+			background-color: rgb(0,128,0);
+		}
+		.orange{
+			background-color: rgb(255,165,0);
+		}
+		.grey{
+			background-color: rgb(192,192,192);
+		}
+		.yellow{
+			background-color: rgb(255,255,0);
+		}
+		.blue_white{
+			background-color: rgb(135,206,250);
+		}
+		.blue_bold{
+			background-color: rgb(30,144,255);
+		}
+		.magent{
+			background-color: rgb(255,0,255);
+		}
+		.orange_bold{
+			background-color: rgb(255,69,0);
+		}
+		.purple{
+			background-color: rgb(147,112,219);
+		}
+		img{
+			width: 15%;
+            float: left;
+            margin-left:43%;
+			position: relative;
+		}
