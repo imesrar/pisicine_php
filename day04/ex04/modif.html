@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <style>
+                body{
+                           font-style: italic;
+                           background-color: pink;
+                           font-size: 150%;
+                       }
+                
+                .bb{
+                           width: 50%;
+                           margin-left: 15%;
+                           margin-top: 5%;
+                           border: 2px solid black;
+                           background-color: darksalmon;
+                           padding: 10%;
+                           text-align: center;
+                       }
+                h1{
+                           text-align: center;
+                           color: azure;
+                       }
+                a{
+                           margin: 3%;
+                           border: 2px solid black;
+                           padding: 2%;
+                        }
+                #sub{
+                           width: 15%;
+                           font-size: 150%;
+                           padding: 2%;
+                           background-color: black;
+                           color: white;
+                           box-shadow: 5px 5px 5px white;
+                       }
+                
+                </style>
+
+
+    <meta charset="UTF-8">
+    <title>42Chat</title>
+</head>
+<body>
+    <div class="bb">
+    <form action="modif.php" method="POST">
+        Identifiant: <input type="text" name="login" value="" />
+        <br /><br />
+        Ancien mot de passe: <input type="password" name="oldpw" value="" />
+        <br /><br />
+        Nouveau mot de passe: <input type="password" name="newpw" value="" />
+        <br />
+        <input type="submit" name="submit" value="OK" id="sub"/>
+        <br /><br />
+        <a href="index.html">Retour</a>
+    </form>
+   
+</body>
+</html>
